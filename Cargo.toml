@@ -2,14 +2,29 @@
 name = "memscope-stress-test"
 version = "0.1.0"
 edition = "2021"
-default-run = "memscope-stress-test"
+description = "High-quality examples for memscope-rs v0.1.7 demonstrating 20+ thread FFT and real-world async operations"
 
 [dependencies]
-tokio = { version = "1.0", features = ["full"] }
+memscope-rs = {branch = "v9",git = "https://github.com/TimWood0x10/memscope-rs.git"}
+tokio = { version = "1.47.1", features = ["full"] }
+rayon = "1.8"
+rand = "0.8"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-rand = "0.8"
-rayon = "1.7"
+futures = "0.3"
 chrono = { version = "0.4", features = ["serde"] }
-lazy_static = "1.4"
-memscope-rs = "0.1"
+
+# 1. FFT with 20+ cooperative threads using lockfree module
+[[bin]]
+name = "fft_multithreaded"
+path = "src/fft_multithreaded.rs"
+
+# 2. Real-world async operations: I/O, CPU, networking using async_memory module
+[[bin]]
+name = "hybrid_example"
+path = "src/hybrid_example.rs"
+
+# 3. Simple export test
+[[bin]]
+name = "test_export"
+path = "src/test_export.rs"

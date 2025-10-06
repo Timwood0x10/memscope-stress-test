@@ -1,0 +1,2580 @@
+{
+  "analytics": {
+    "correlations": {
+      "allocation_rate_vs_cpu_usage": 0.4,
+      "deallocation_rate_vs_memory_pressure": 0.1,
+      "memory_cpu_correlation": 0.2,
+      "memory_gpu_correlation": 0.0,
+      "memory_io_correlation": 0.1
+    },
+    "cpu": {
+      "average_usage": 25.0,
+      "cores_detected": 14,
+      "load_average_final": [
+        7.61767578125,
+        4.45263671875,
+        3.056640625
+      ],
+      "minimum_usage": 25.0,
+      "peak_usage": 25.0,
+      "usage_trend": "stable"
+    },
+    "gpu": {
+      "available": false,
+      "reason": "no_gpu_detected_or_unsupported_platform"
+    },
+    "io": {
+      "avg_disk_throughput_mbps": 0.0,
+      "avg_network_throughput_mbps": 0.0,
+      "total_disk_read_mb": 0.0,
+      "total_disk_write_mb": 0.0,
+      "total_network_rx_mb": 0.0,
+      "total_network_tx_mb": 0.0
+    },
+    "memory": {
+      "allocation_efficiency": 0.0,
+      "peak_memory_usage_bytes": 12582864,
+      "peak_memory_usage_mb": 11.999954223632812,
+      "total_allocations": 120,
+      "total_deallocations": 0,
+      "tracked_threads": 5
+    }
+  },
+  "correlation_metrics": {
+    "allocation_rate_vs_cpu_usage": 0.4,
+    "deallocation_rate_vs_memory_pressure": 0.1,
+    "memory_cpu_correlation": 0.2,
+    "memory_gpu_correlation": 0.0,
+    "memory_io_correlation": 0.1
+  },
+  "memory_analysis": {
+    "hottest_call_stacks": [
+      {
+        "call_stack_hash": 12323837099468355211,
+        "impact_score": 1645592760,
+        "threads": [],
+        "total_frequency": 90,
+        "total_size": 18284364
+      },
+      {
+        "call_stack_hash": 11572273176684835802,
+        "impact_score": 182843640,
+        "threads": [],
+        "total_frequency": 30,
+        "total_size": 6094788
+      }
+    ],
+    "memory_peaks": [
+      {
+        "active_allocations": 24,
+        "memory_usage": 12582864,
+        "thread_id": 6,
+        "timestamp": 1759731778463147000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 23,
+        "memory_usage": 12320720,
+        "thread_id": 6,
+        "timestamp": 1759731778462259000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 22,
+        "memory_usage": 12058576,
+        "thread_id": 6,
+        "timestamp": 1759731778462052000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 21,
+        "memory_usage": 11534288,
+        "thread_id": 6,
+        "timestamp": 1759731778455662000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 20,
+        "memory_usage": 10485728,
+        "thread_id": 6,
+        "timestamp": 1759731778416032000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 19,
+        "memory_usage": 9961440,
+        "thread_id": 6,
+        "timestamp": 1759731778410205000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 18,
+        "memory_usage": 9437152,
+        "thread_id": 6,
+        "timestamp": 1759731778404186000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 17,
+        "memory_usage": 8912864,
+        "thread_id": 6,
+        "timestamp": 1759731778384844000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 16,
+        "memory_usage": 8388576,
+        "thread_id": 6,
+        "timestamp": 1759731778365306000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 15,
+        "memory_usage": 8126432,
+        "thread_id": 6,
+        "timestamp": 1759731778364331000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 14,
+        "memory_usage": 7864288,
+        "thread_id": 6,
+        "timestamp": 1759731778364099000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 13,
+        "memory_usage": 7340000,
+        "thread_id": 6,
+        "timestamp": 1759731778357812000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 12,
+        "memory_usage": 6291440,
+        "thread_id": 6,
+        "timestamp": 1759731778318387000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 24,
+        "memory_usage": 6291408,
+        "thread_id": 5,
+        "timestamp": 1759731778115707000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 23,
+        "memory_usage": 6160336,
+        "thread_id": 5,
+        "timestamp": 1759731778115257000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 22,
+        "memory_usage": 6029264,
+        "thread_id": 5,
+        "timestamp": 1759731778115150000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 11,
+        "memory_usage": 5767152,
+        "thread_id": 6,
+        "timestamp": 1759731778312202000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 21,
+        "memory_usage": 5767120,
+        "thread_id": 5,
+        "timestamp": 1759731778112197000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 10,
+        "memory_usage": 5242864,
+        "thread_id": 6,
+        "timestamp": 1759731778306234000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 20,
+        "memory_usage": 5242848,
+        "thread_id": 5,
+        "timestamp": 1759731778092739000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 19,
+        "memory_usage": 4980704,
+        "thread_id": 5,
+        "timestamp": 1759731778089948000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 9,
+        "memory_usage": 4718576,
+        "thread_id": 6,
+        "timestamp": 1759731778286546000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 18,
+        "memory_usage": 4718560,
+        "thread_id": 5,
+        "timestamp": 1759731778087156000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 17,
+        "memory_usage": 4456416,
+        "thread_id": 5,
+        "timestamp": 1759731778077545000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 8,
+        "memory_usage": 4194288,
+        "thread_id": 6,
+        "timestamp": 1759731778266982000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 16,
+        "memory_usage": 4194272,
+        "thread_id": 5,
+        "timestamp": 1759731778067644000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 15,
+        "memory_usage": 4063200,
+        "thread_id": 5,
+        "timestamp": 1759731778067181000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 7,
+        "memory_usage": 3932144,
+        "thread_id": 6,
+        "timestamp": 1759731778266003000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 14,
+        "memory_usage": 3932128,
+        "thread_id": 5,
+        "timestamp": 1759731778067075000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 6,
+        "memory_usage": 3670000,
+        "thread_id": 6,
+        "timestamp": 1759731778265775000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 13,
+        "memory_usage": 3669984,
+        "thread_id": 5,
+        "timestamp": 1759731778064005000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 12,
+        "memory_usage": 3145712,
+        "thread_id": 5,
+        "timestamp": 1759731778044406000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 5,
+        "memory_usage": 3145712,
+        "thread_id": 6,
+        "timestamp": 1759731778259392000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 24,
+        "memory_usage": 3145680,
+        "thread_id": 4,
+        "timestamp": 1759731777920425000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 23,
+        "memory_usage": 3080144,
+        "thread_id": 4,
+        "timestamp": 1759731777920194000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 22,
+        "memory_usage": 3014608,
+        "thread_id": 4,
+        "timestamp": 1759731777920143000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 11,
+        "memory_usage": 2883568,
+        "thread_id": 5,
+        "timestamp": 1759731778041505000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 21,
+        "memory_usage": 2883536,
+        "thread_id": 4,
+        "timestamp": 1759731777918742000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 10,
+        "memory_usage": 2621424,
+        "thread_id": 5,
+        "timestamp": 1759731778038702000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 20,
+        "memory_usage": 2621408,
+        "thread_id": 4,
+        "timestamp": 1759731777909524000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 19,
+        "memory_usage": 2490336,
+        "thread_id": 4,
+        "timestamp": 1759731777908050000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 9,
+        "memory_usage": 2359280,
+        "thread_id": 5,
+        "timestamp": 1759731778029059000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 18,
+        "memory_usage": 2359264,
+        "thread_id": 4,
+        "timestamp": 1759731777906677000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 17,
+        "memory_usage": 2228192,
+        "thread_id": 4,
+        "timestamp": 1759731777901752000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 4,
+        "memory_usage": 2097152,
+        "thread_id": 6,
+        "timestamp": 1759731778219589000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 8,
+        "memory_usage": 2097136,
+        "thread_id": 5,
+        "timestamp": 1759731778019306000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 16,
+        "memory_usage": 2097120,
+        "thread_id": 4,
+        "timestamp": 1759731777896779000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 15,
+        "memory_usage": 2031584,
+        "thread_id": 4,
+        "timestamp": 1759731777896537000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 7,
+        "memory_usage": 1966064,
+        "thread_id": 5,
+        "timestamp": 1759731778018845000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 14,
+        "memory_usage": 1966048,
+        "thread_id": 4,
+        "timestamp": 1759731777896475000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 6,
+        "memory_usage": 1834992,
+        "thread_id": 5,
+        "timestamp": 1759731778018743000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 13,
+        "memory_usage": 1834976,
+        "thread_id": 4,
+        "timestamp": 1759731777895018000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 3,
+        "memory_usage": 1572864,
+        "thread_id": 6,
+        "timestamp": 1759731778213491000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 5,
+        "memory_usage": 1572848,
+        "thread_id": 5,
+        "timestamp": 1759731778015767000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 12,
+        "memory_usage": 1572848,
+        "thread_id": 4,
+        "timestamp": 1759731777885943000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 24,
+        "memory_usage": 1572816,
+        "thread_id": 3,
+        "timestamp": 1759731777798608000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 23,
+        "memory_usage": 1540048,
+        "thread_id": 3,
+        "timestamp": 1759731777798487000,
+        "triggering_call_stack": 11572273176684835802
+      },
+      {
+        "active_allocations": 22,
+        "memory_usage": 1507280,
+        "thread_id": 3,
+        "timestamp": 1759731777798455000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 11,
+        "memory_usage": 1441776,
+        "thread_id": 4,
+        "timestamp": 1759731777884504000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 21,
+        "memory_usage": 1441744,
+        "thread_id": 3,
+        "timestamp": 1759731777797746000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 10,
+        "memory_usage": 1310704,
+        "thread_id": 4,
+        "timestamp": 1759731777883154000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 20,
+        "memory_usage": 1310688,
+        "thread_id": 3,
+        "timestamp": 1759731777793470000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 19,
+        "memory_usage": 1245152,
+        "thread_id": 3,
+        "timestamp": 1759731777792723000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 9,
+        "memory_usage": 1179632,
+        "thread_id": 4,
+        "timestamp": 1759731777878354000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 18,
+        "memory_usage": 1179616,
+        "thread_id": 3,
+        "timestamp": 1759731777792065000,
+        "triggering_call_stack": 12323837099468355211
+      },
+      {
+        "active_allocations": 17,
+        "memory_usage": 1114080,
+        "thread_id": 3,
+        "timestamp": 1759731777789622000,
+        "triggering_call_stack": 12323837099468355211
+      }
+    ],
+    "performance_bottlenecks": [],
+    "summary": {
+      "analysis_duration_ms": 0,
+      "peak_memory_usage": 12582864,
+      "sampling_effectiveness": 100.0,
+      "total_allocations": 120,
+      "total_deallocations": 0,
+      "total_memory_allocated": 24379152,
+      "total_threads": 5,
+      "unique_call_stacks": 2
+    },
+    "thread_interactions": [
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          11572273176684835802,
+          12323837099468355211
+        ],
+        "thread_a": 2,
+        "thread_b": 3
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          11572273176684835802,
+          12323837099468355211
+        ],
+        "thread_a": 2,
+        "thread_b": 5
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          11572273176684835802,
+          12323837099468355211
+        ],
+        "thread_a": 2,
+        "thread_b": 6
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          11572273176684835802,
+          12323837099468355211
+        ],
+        "thread_a": 2,
+        "thread_b": 4
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          12323837099468355211,
+          11572273176684835802
+        ],
+        "thread_a": 3,
+        "thread_b": 5
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          12323837099468355211,
+          11572273176684835802
+        ],
+        "thread_a": 3,
+        "thread_b": 6
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          12323837099468355211,
+          11572273176684835802
+        ],
+        "thread_a": 3,
+        "thread_b": 4
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          12323837099468355211,
+          11572273176684835802
+        ],
+        "thread_a": 5,
+        "thread_b": 6
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          12323837099468355211,
+          11572273176684835802
+        ],
+        "thread_a": 5,
+        "thread_b": 4
+      },
+      {
+        "interaction_strength": 24,
+        "interaction_type": "SimilarPatterns",
+        "shared_patterns": [
+          11572273176684835802,
+          12323837099468355211
+        ],
+        "thread_a": 6,
+        "thread_b": 4
+      }
+    ],
+    "thread_stats": {
+      "2": {
+        "allocation_frequency": {
+          "11572273176684835802": 6,
+          "12323837099468355211": 18
+        },
+        "avg_allocation_size": 32766.0,
+        "peak_memory": 786384,
+        "thread_id": 2,
+        "timeline": [
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729471488,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777693499000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729504256,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777694756000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729537024,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777695071000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729569792,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777695389000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5503516672,
+            "size": 65520,
+            "thread_id": 2,
+            "timestamp": 1759731777697446000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729602560,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777697772000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5729668096,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777697788000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5729684480,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777697849000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5729471488,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777699119000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746231296,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777700340000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746264064,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777700641000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746296832,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777700943000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234917376,
+            "size": 65520,
+            "thread_id": 2,
+            "timestamp": 1759731777702956000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746329600,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777703275000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746395136,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777703291000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746411520,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777703350000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746231296,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777704612000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746264064,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777705859000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746296832,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777706163000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746329600,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777706486000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234851840,
+            "size": 65520,
+            "thread_id": 2,
+            "timestamp": 1759731777708536000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5746362368,
+            "size": 32768,
+            "thread_id": 2,
+            "timestamp": 1759731777708877000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746427904,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777708893000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746444288,
+            "size": 16384,
+            "thread_id": 2,
+            "timestamp": 1759731777708956000
+          }
+        ],
+        "total_allocated": 786384,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      "3": {
+        "allocation_frequency": {
+          "11572273176684835802": 6,
+          "12323837099468355211": 18
+        },
+        "avg_allocation_size": 65534.0,
+        "peak_memory": 1572816,
+        "thread_id": 3,
+        "timeline": [
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5368905728,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777766930000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966088704,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777769411000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234851840,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777770046000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234917376,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777770680000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5235638272,
+            "size": 131056,
+            "thread_id": 3,
+            "timestamp": 1759731777774887000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234524160,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777775597000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746231296,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777775628000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5746275840,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777775749000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234851840,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777778301000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4697653248,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777780690000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4697718784,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777781316000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4697784320,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777781940000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4698767360,
+            "size": 131056,
+            "thread_id": 3,
+            "timestamp": 1759731777786274000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4697915392,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777786978000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5754651648,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777787020000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5754684416,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777787141000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771558912,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777789622000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771624448,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777792065000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771689984,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777792723000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5503123456,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777793470000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4698570752,
+            "size": 131056,
+            "thread_id": 3,
+            "timestamp": 1759731777797746000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966154240,
+            "size": 65536,
+            "thread_id": 3,
+            "timestamp": 1759731777798455000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5721077248,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777798487000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5721110016,
+            "size": 32768,
+            "thread_id": 3,
+            "timestamp": 1759731777798608000
+          }
+        ],
+        "total_allocated": 1572816,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      "4": {
+        "allocation_frequency": {
+          "11572273176684835802": 6,
+          "12323837099468355211": 18
+        },
+        "avg_allocation_size": 131070.0,
+        "peak_memory": 3145680,
+        "thread_id": 4,
+        "timeline": [
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5369135104,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777854840000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5502959616,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777859754000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4831870976,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777861122000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832002048,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777862505000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5503844352,
+            "size": 262128,
+            "thread_id": 4,
+            "timestamp": 1759731777871668000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5503582208,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777873116000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5503713280,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777873168000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5503778816,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777873398000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5502959616,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777878354000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5369135104,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777883154000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5368741888,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777884504000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5369266176,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777885943000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5504106496,
+            "size": 262128,
+            "thread_id": 4,
+            "timestamp": 1759731777895018000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5503483904,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777896475000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5503090688,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777896537000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5503156224,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777896779000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5502959616,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777901752000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4698570752,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777906677000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771624448,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777908050000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771755520,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777909524000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966744064,
+            "size": 262128,
+            "thread_id": 4,
+            "timestamp": 1759731777918742000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832002048,
+            "size": 131072,
+            "thread_id": 4,
+            "timestamp": 1759731777920143000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4832133120,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777920194000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4832198656,
+            "size": 65536,
+            "thread_id": 4,
+            "timestamp": 1759731777920425000
+          }
+        ],
+        "total_allocated": 3145680,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      "5": {
+        "allocation_frequency": {
+          "11572273176684835802": 6,
+          "12323837099468355211": 18
+        },
+        "avg_allocation_size": 262142.0,
+        "peak_memory": 6291408,
+        "thread_id": 5,
+        "timeline": [
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 6308429824,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731777980874000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832133120,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731777990570000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234524160,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731777993460000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966744064,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731777996358000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4969627648,
+            "size": 524272,
+            "thread_id": 5,
+            "timestamp": 1759731778015767000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5235179520,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778018743000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5234786304,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778018845000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5235441664,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778019306000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234524160,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778029059000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4697653248,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778038702000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234786304,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778041505000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5235048448,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778044406000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 12885458944,
+            "size": 524272,
+            "thread_id": 5,
+            "timestamp": 1759731778064005000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966350848,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778067075000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4966612992,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778067181000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4966744064,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778067644000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966350848,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778077545000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832133120,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778087156000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4831870976,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778089948000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832395264,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778092739000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 12885983232,
+            "size": 524272,
+            "thread_id": 5,
+            "timestamp": 1759731778112197000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832919552,
+            "size": 262144,
+            "thread_id": 5,
+            "timestamp": 1759731778115150000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4833181696,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778115257000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4833312768,
+            "size": 131072,
+            "thread_id": 5,
+            "timestamp": 1759731778115707000
+          }
+        ],
+        "total_allocated": 6291408,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      "6": {
+        "allocation_frequency": {
+          "11572273176684835802": 6,
+          "12323837099468355211": 18
+        },
+        "avg_allocation_size": 524286.0,
+        "peak_memory": 12582864,
+        "thread_id": 6,
+        "timeline": [
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 13019316224,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778188056000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234786304,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778207368000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 6308691968,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778213491000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4966612992,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778219589000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5505417216,
+            "size": 1048560,
+            "thread_id": 6,
+            "timestamp": 1759731778259392000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5772410880,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778265775000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5771558912,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778266003000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5772935168,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778266982000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832395264,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778286546000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5502959616,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778306234000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4429742080,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778312202000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234786304,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778318387000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4432625664,
+            "size": 1048560,
+            "thread_id": 6,
+            "timestamp": 1759731778357812000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4967661568,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778364099000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5369135104,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778364331000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 5369397248,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778365306000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5369659392,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778384844000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5234786304,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778404186000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4429742080,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778410205000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 4832395264,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778416032000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5238390784,
+            "size": 1048560,
+            "thread_id": 6,
+            "timestamp": 1759731778455662000
+          },
+          {
+            "call_stack_hash": 12323837099468355211,
+            "event_type": "Allocation",
+            "ptr": 5771558912,
+            "size": 524288,
+            "thread_id": 6,
+            "timestamp": 1759731778462052000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4832919552,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778462259000
+          },
+          {
+            "call_stack_hash": 11572273176684835802,
+            "event_type": "Allocation",
+            "ptr": 4833181696,
+            "size": 262144,
+            "thread_id": 6,
+            "timestamp": 1759731778463147000
+          }
+        ],
+        "total_allocated": 12582864,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      }
+    }
+  },
+  "performance_insights": {
+    "cpu_efficiency_score": 40.0,
+    "io_efficiency_score": 40.0,
+    "memory_efficiency_score": 50.0,
+    "primary_bottleneck": "Balanced",
+    "recommendations": [
+      "System performance appears well-balanced",
+      "Monitor for performance regression in future updates"
+    ],
+    "thread_performance_ranking": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 2,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 3,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 5,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 6,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 4,
+        "thread_name": null
+      }
+    ]
+  },
+  "rankings": {
+    "cpu_usage_ranking": [
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 1
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 2
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 3
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 4
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 5
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 6
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 7
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 8
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 9
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 7.61767578125,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 10
+      }
+    ],
+    "gpu_usage_ranking": [],
+    "memory_usage_ranking": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 12287.953125,
+        "thread_id": 6,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 6143.953125,
+        "thread_id": 5,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 3071.953125,
+        "thread_id": 4,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1535.953125,
+        "thread_id": 3,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 767.953125,
+        "thread_id": 2,
+        "total_allocations": 24,
+        "total_deallocations": 0
+      }
+    ],
+    "thread_performance_ranking": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 2,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 3,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 5,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 6,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 4,
+        "thread_name": null
+      }
+    ]
+  },
+  "resource_timeline": [
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731777691
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731777793
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731777898
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778000
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778101
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778201
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778302
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778405
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778509
+    },
+    {
+      "cpu_metrics": {
+        "context_switches_per_sec": 0,
+        "frequency_mhz": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interrupts_per_sec": 0,
+        "load_average": [
+          7.61767578125,
+          4.45263671875,
+          3.056640625
+        ],
+        "overall_usage_percent": 25.0,
+        "per_core_usage": [
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872,
+          1.7857142686843872
+        ],
+        "temperature_celsius": []
+      },
+      "gpu_metrics": null,
+      "io_metrics": {
+        "disk_read_bytes_per_sec": 0,
+        "disk_read_ops_per_sec": 0,
+        "disk_write_bytes_per_sec": 0,
+        "disk_write_ops_per_sec": 0,
+        "network_rx_bytes_per_sec": 0,
+        "network_rx_packets_per_sec": 0,
+        "network_tx_bytes_per_sec": 0,
+        "network_tx_packets_per_sec": 0
+      },
+      "thread_metrics": {
+        "1": {
+          "cpu_time_kernel_ns": 0,
+          "cpu_time_user_ns": 0,
+          "cpu_usage_percent": 0.0,
+          "io_read_bytes": 0,
+          "io_write_bytes": 0,
+          "memory_resident_bytes": 0,
+          "memory_virtual_bytes": 0,
+          "thread_id": 1,
+          "thread_name": "resource_collector"
+        }
+      },
+      "timestamp": 1759731778610
+    }
+  ]
+}

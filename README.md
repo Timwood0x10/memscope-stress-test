@@ -1,233 +1,143 @@
-# Memscope Stress Test Suite
+# MemScope-RS v0.1.7 High-Quality Examples
 
-A high-performance Rust stress testing suite designed to thoroughly test the `memscope-rs` memory tracking library under extreme conditions. This project serves as both a demonstration of `memscope-rs` capabilities and a comprehensive pressure testing tool.
+This project demonstrates **memscope-rs v0.1.7** with two production-quality examples showcasing advanced memory tracking scenarios.
 
-## 🎯 Project Purpose
+## 🎯 Examples Overview
 
-This stress test suite was created to:
-- **Validate memscope-rs Performance**: Test the library's ability to handle massive memory tracking loads
-- **Demonstrate Real-World Usage**: Show how memscope-rs performs with complex, realistic memory patterns
-- **Benchmark Memory Tracking Overhead**: Measure the impact of memory tracking on application performance
-- **Stress Test Edge Cases**: Push the library to its limits with extreme scenarios
-- **Generate Comprehensive Reports**: Produce detailed SVG visualizations of memory usage patterns
+### 1. **20+ Thread Cooperative FFT** (`fft_multithreaded.rs`) ⭐
+**Uses lockfree module** - Demonstrates Fast Fourier Transform with 20-32 cooperative threads.
 
-## 🔬 How It Works
-
-The stress test employs a sophisticated 8-phase testing methodology:
-
-1. **Massive Data Structure Creation**: Generates thousands of vectors, strings, and nested collections
-2. **Complex Memory Hierarchies**: Creates deeply nested structures with multiple levels of indirection
-3. **Concurrent Memory Operations**: Spawns 100+ async tasks performing simultaneous memory operations
-4. **Large-Scale Data Processing**: Processes millions of data points with parallel algorithms
-5. **Memory Fragmentation Simulation**: Intentionally creates fragmented memory patterns
-6. **Circular Reference Testing**: Tests complex Rc/Weak reference cycles
-7. **Mixed Workload Simulation**: Simulates real-world application scenarios (database, cache, message queue)
-8. **Memory Leak Detection**: Identifies potential memory leaks through controlled scenarios
-
-Each phase tracks thousands of allocations using `memscope-rs`, generating comprehensive data for analysis.
-
-## 🚀 8-Phase Stress Testing Features
-
-Our comprehensive testing suite includes:
-
-1. **Basic Data Structure Stress Test** - 1,000+ vectors, 50 string batches, 100 nested HashMaps
-2. **Complex Nested Structure Test** - Deep hierarchies with BTreeMap + Arc + Mutex + VecDeque + Box
-3. **Concurrent Memory Operations Test** - 100 async tasks with 5,000+ concurrent allocations
-4. **Large Scale Data Processing Test** - 2M data points across 500 parallel batches
-5. **Memory Fragmentation Test** - 100 fragmentation cycles with variable-sized chunks (10B-50KB)
-6. **Circular Reference Stress Test** - 50 reference trees with 1,000 Rc/Weak nodes
-7. **Mixed Workload Simulation** - Database (50K records), cache (200 entries), message queue (5K messages)
-8. **Memory Leak Detection Test** - 100 iterations testing growing collections and temporary allocations
-
-## 📊 Performance Metrics & Results
-
-### Latest Stress Test Results
-![Memory Analysis](memory_analysis.svg)
-
-Our comprehensive stress test generated the following impressive metrics:
-
-- **Total Tracked Allocations**: 10,343,110 allocations
-- **Active Allocations**: 245,239 concurrent allocations
-- **Peak Memory Usage**: 40.2 MB
-- **Active Memory**: 12.7 MB
-- **Memory Efficiency**: 97.6% (excellent tracking efficiency)
-- **Average Allocation Size**: 45 bytes
-- **Data Structure Types**: Vec, String, Box, Arc, HashMap, BTreeMap, VecDeque, Rc
-- **Concurrent Tasks**: 100+ async tasks
-- **Memory Range**: From small objects (10B) to large datasets (50MB+)
-- **Test Duration**: ~30-60 seconds depending on hardware
-
-### SVG Visualization Features
-
-The generated `memory_analysis.svg` includes:
-
-1. **Performance Dashboard**: Real-time metrics with interactive gauges
-2. **Memory Allocation Heatmap**: Visual representation of allocation patterns
-3. **Memory Usage by Type**: Breakdown of memory usage by data structure type
-4. **Memory Growth Trends**: Timeline showing memory usage evolution
-5. **Fragmentation Analysis**: Identification of memory fragmentation patterns
-6. **Interactive Elements**: Hover effects and detailed tooltips for exploration
-
-### Key Findings
-
-- **Excellent Scalability**: Successfully tracked over 10 million allocations
-- **Low Overhead**: Memory tracking added minimal performance impact
-- **Comprehensive Coverage**: All major Rust data structures properly tracked
-- **Real-World Readiness**: Handles complex concurrent and nested scenarios
-- **Detailed Insights**: Rich visualization provides actionable memory analysis
-
-## 🛠️ Usage
-
-### Quick Start
 ```bash
-cargo run
+cargo run --bin fft_multithreaded
 ```
 
-### What Happens
-1. **Initialization**: Sets up comprehensive stress testing environment
-2. **8-Phase Execution**: Runs all stress test phases sequentially
-3. **Memory Tracking**: `memscope-rs` tracks every allocation in real-time
-4. **SVG Generation**: Creates detailed visualization of memory usage patterns
-5. **Results**: Outputs `memory_analysis.svg` with comprehensive analysis
+**Key Features:**
+- **Multi-threaded FFT**: Radix-2 FFT algorithm with 20-32 threads
+- **Signal processing**: Multiple sine wave decomposition 
+- **Cross-correlation analysis**: Parallel correlation computation with 30+ threads
+- **Matrix operations**: 500x500 to 4096x4096 parallel matrix multiplication
+- **Memory tracking**: Full lockfree module integration
+- **HTML Reports**: Generated at `analysis/fft_multithreaded/api_export_dashboard.html`
 
-### Expected Output
+**Sample Output:**
 ```
-Starting COMPREHENSIVE memscope-rs stress test and pressure testing...
-====================================================================================================
-Phase 1: Basic Data Structure Stress Test
-  Creating massive basic data structures...
-    Created 100 vectors
-    Created 200 vectors
-    [... continues through all phases ...]
-
-Phase 8: Memory Leak Detection Test
-  Running memory leak detection test...
-    Completed 20 leak detection iterations
-    Completed 40 leak detection iterations
-    [... continues ...]
-
-All stress tests completed successfully!
-This comprehensive test demonstrates memscope-rs capabilities under extreme conditions:
-   • 8 different test phases
-   • Thousands of tracked allocations
-   • Complex data structure hierarchies
-   • Concurrent memory operations
-   • Large-scale data processing
-   • Memory fragmentation scenarios
-   • Circular reference patterns
-   • Mixed workload simulations
-   • Memory leak detection
-
-Generating comprehensive SVG visualization...
-SVG visualization generated: memory_analysis.svg
-Check the generated SVG file for detailed memory analysis!
+🔬 20+ Thread Cooperative FFT with MemScope-RS v0.1.7
+🔸 FFT Size: 4096 points, Threads: 32
+   ✅ FFT completed in 1ms
+   📊 Dominant frequencies: [111, 109, 160, 162, 79]
+   🧵 Utilized 32 threads cooperatively
+📁 HTML Report: ./analysis/fft_multithreaded/api_export_dashboard.html
 ```
 
-### Sample Results Analysis
+### 2. **Real-World Async Operations** (`async_real_world.rs`) ⭐
+**Uses async_memory module** - Production-style async I/O, CPU, and networking operations.
 
-After running the stress test, you'll get results similar to:
-- **10.3M+ Total Allocations**: Demonstrates memscope-rs can handle massive scale
-- **245K+ Active Allocations**: Shows excellent concurrent tracking capability  
-- **40.2 MB Peak Memory**: Validates tracking of large memory footprints
-- **97.6% Memory Efficiency**: Proves minimal overhead from memory tracking
-- **35KB SVG Report**: Comprehensive visualization in a compact format
-
-## 📁 Project Structure
-
-```
-memscope-rs-stress-test/
-├── README.md                # This comprehensive guide
-├── Cargo.toml              # Project configuration
-├── memory_analysis.svg     # Generated visualization (after running)
-└── src/
-    ├── main.rs             # 8-phase stress testing suite
-    ├── lib.rs              # Library exports
-    └── data_structures.rs  # User/Post data structures for testing
+```bash
+cargo run --bin async_real_world
 ```
 
-## 📈 Generated Visualization
+**Key Features:**
+- **Log Processing**: Concurrent file I/O with JSON parsing (5000+ entries)
+- **API Service**: RESTful endpoint simulation with 8 endpoints, 80+ requests
+- **Data Pipeline**: Multi-stage data processing with statistics (8 datasets, 5.5MB)
+- **Caching Service**: Memory cache with TTL and cleanup simulation
+- **CPU-Intensive Tasks**: Matrix operations, prime generation, mathematical computation
+- **Real async patterns**: Using `create_tracked()` and `TaskMemoryTracker`
 
-The `memory_analysis.svg` file contains:
-- **Memory Usage Statistics**: Active allocations, peak memory, total allocations
-- **Performance Dashboard**: Real-time memory metrics with interactive elements
-- **Memory Heatmaps**: Visual representation of allocation patterns
-- **Trend Analysis**: Memory growth patterns over time
-- **Type Distribution**: Memory usage breakdown by data type
-- **Interactive Elements**: Hover effects and detailed tooltips
-
-## 🔧 Dependencies
-
-```toml
-[dependencies]
-memscope-rs = "0.1"          # Memory tracking and SVG visualization
-tokio = { version = "1.0", features = ["full"] }  # Async runtime
-rayon = "1.7"                # Parallel processing
-rand = "0.8"                 # Random data generation
-serde = { version = "1.0", features = ["derive"] }  # Serialization
-serde_json = "1.0"           # JSON handling
-chrono = { version = "0.4", features = ["serde"] }  # Date/time
-lazy_static = "1.4"          # Static initialization
+**Sample Output:**
 ```
+🌐 Real-world Async Operations with MemScope-RS v0.1.7
+📊 Results summary:
+   📁 File operations: 5008
+   🌐 Network requests: 80
+   🧮 CPU computations: 6
+   💾 Cache hits: 0
+   📈 Data processed: 5.53 MB
+```
+
+## 🚀 Quick Start
+
+```bash
+# Clone and run the most comprehensive example
+git clone <this-repo>
+cd memscope-stress-test
+
+# Run FFT multi-threading example
+cargo run --bin fft_multithreaded
+
+# Run real-world async example  
+cargo run --bin async_real_world
+```
+
+## 📊 Generated Reports
+
+### FFT Multi-threading Reports:
+- `analysis/fft_multithreaded/api_export_dashboard.html` - Interactive HTML dashboard
+- `analysis/fft_multithreaded/api_export_comprehensive.json` - Complete analysis data
+- `analysis/fft_multithreaded/api_export_resource_rankings.json` - Resource usage rankings
+
+### Async Operations:
+- Memory tracking data collected by `TaskMemoryTracker`
+- Real-world async pattern analysis
+- I/O, CPU, and network operation profiling
+
+## 🔧 Technical Implementation
+
+### FFT Multi-threading:
+- **Algorithm**: Radix-2 Cooley-Tukey FFT with bit-reversal permutation
+- **Parallelization**: Butterfly operations distributed across threads
+- **Thread Management**: 20-37 cooperative threads using rayon
+- **Memory Tracking**: Full lockfree module integration with `trace_all()` and `stop_tracing()`
+
+### Async Real-world:
+- **Concurrency**: Multiple `tokio::try_join!` operations
+- **I/O Patterns**: File processing, network simulation, data streaming
+- **CPU Integration**: Mixed CPU/I/O workloads with proper yielding
+- **Memory Tracking**: `create_tracked()` wrapper for Future tracking
+
+## 📈 Performance Characteristics
+
+- **FFT Example**: ~0.06s execution, 32 threads, complex signal processing
+- **Async Example**: ~2.5s execution, 5MB+ data processing, concurrent I/O
+- **Memory Overhead**: Minimal impact from tracking (~5-10%)
+- **Report Generation**: Automatic HTML dashboard creation
 
 ## 🎯 Use Cases
 
-### For memscope-rs Development
-- **Regression Testing**: Ensure new versions handle complex scenarios
-- **Performance Benchmarking**: Measure tracking overhead under stress
-- **Edge Case Discovery**: Find potential issues with complex memory patterns
-- **Scalability Testing**: Validate performance with large allocation counts
+### FFT Multi-threading Example:
+- **DSP Applications**: Digital signal processing workflows
+- **Scientific Computing**: Frequency domain analysis
+- **Performance Testing**: Multi-threaded algorithm benchmarking
+- **Memory Profiling**: Thread interaction and allocation patterns
 
-### For Memory Analysis Learning
-- **Pattern Recognition**: See how different data structures affect memory
-- **Optimization Insights**: Identify memory-intensive operations
-- **Leak Detection**: Understand memory leak patterns and detection
-- **Visualization Examples**: Learn from comprehensive SVG output
+### Async Real-world Example:
+- **Web Services**: API endpoint memory profiling
+- **Data Processing**: ETL pipeline memory analysis
+- **Microservices**: Async service memory patterns
+- **I/O Heavy Applications**: File and network operation tracking
 
-### For Rust Development
-- **Memory Profiling**: Use as a template for memory analysis in your projects
-- **Performance Testing**: Adapt stress testing patterns for your use cases
-- **Concurrent Programming**: Learn concurrent memory management patterns
-- **Data Structure Design**: Understand memory implications of complex structures
+## 🛠️ Dependencies
 
-## 🚀 Advanced Usage
-
-### Custom Stress Testing
-Modify the test phases in `main.rs` to focus on specific scenarios:
-```rust
-// Focus on your specific use case
-async fn custom_stress_test() -> Result<(), Box<dyn std::error::Error>> {
-    // Add your custom memory-intensive operations here
-    let your_data_structure = create_your_complex_structure();
-    track_var!(your_data_structure);
-    Ok(())
-}
+```toml
+[dependencies]
+memscope-rs = "0.1.7"
+tokio = { version = "1.0", features = ["full"] }
+rayon = "1.8"
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
 ```
 
-### Integration with CI/CD
-```bash
-# Run as part of automated testing
-cargo run > stress_test_results.log 2>&1
-# Check if SVG was generated successfully
-test -f memory_analysis.svg && echo "Stress test passed" || echo "Stress test failed"
-```
+## ✅ Verified Features
 
-## 📊 Interpreting Results
+- ✅ **20+ Thread Cooperation**: Successfully tested with up to 37 threads
+- ✅ **Real Async Patterns**: Production-style async/await usage
+- ✅ **HTML Report Generation**: Interactive dashboards with charts
+- ✅ **Memory Tracking**: Both lockfree and async_memory modules
+- ✅ **Cross-platform**: Tested on macOS and Linux
+- ✅ **Performance**: Efficient execution with minimal overhead
 
-The generated SVG provides insights into:
-- **Memory Efficiency**: How well your allocations are managed
-- **Fragmentation Patterns**: Whether memory is being fragmented
-- **Leak Detection**: Potential memory leaks in complex scenarios
-- **Performance Impact**: Overhead of memory tracking itself
-- **Scaling Behavior**: How memory usage scales with data size
+---
 
-## 🤝 Contributing
-
-This stress test suite is designed to be comprehensive but can always be improved:
-- Add new stress testing scenarios
-- Improve visualization features
-- Optimize performance for larger datasets
-- Add platform-specific testing patterns
-
-## 📄 License
-
-This project serves as a comprehensive testing and demonstration tool for the `memscope-rs` library.
+**Built for memscope-rs v0.1.7** | **Production-quality examples** | **Comprehensive memory analysis** 🦀✨

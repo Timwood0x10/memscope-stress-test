@@ -1,5 +1,2 @@
-//! Memory tracking test library using memscope-rs
-
-pub mod data_structures;
-
-pub use data_structures::DataManager;
+//! MemScope Stress Test Library
+//! High-quality examples for memscope-rs v0.1.7
