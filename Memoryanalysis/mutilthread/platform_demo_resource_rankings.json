@@ -1,0 +1,764 @@
+{
+  "cpu_rankings": {
+    "all_samples": [
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 1
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 2
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 3
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 4
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 5
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 6
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 7
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 8
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 9
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 10
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 11
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 12
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 13
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 14
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 15
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 16
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 17
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 18
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 19
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 20
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 21
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 22
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 23
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 24
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 25
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 26
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 27
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 28
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 29
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 30
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 31
+      }
+    ],
+    "summary": {
+      "average_usage": 25.0,
+      "total_samples": 31
+    },
+    "top_performers": [
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 1
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 2
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 3
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 4
+      },
+      {
+        "cores": 14,
+        "load_average_1min": 3.1416015625,
+        "overall_usage": 25.0,
+        "performance_rating": "excellent",
+        "sample_id": 5
+      }
+    ]
+  },
+  "gpu_rankings": {
+    "all_samples": [],
+    "summary": {
+      "gpu_available": false,
+      "total_gpu_samples": 0
+    }
+  },
+  "memory_rankings": {
+    "all_threads": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 23360.0,
+        "thread_id": 24,
+        "total_allocations": 1460,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 22720.0,
+        "thread_id": 22,
+        "total_allocations": 1420,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 22080.0,
+        "thread_id": 20,
+        "total_allocations": 1380,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 21440.0,
+        "thread_id": 18,
+        "total_allocations": 1340,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 20800.0,
+        "thread_id": 16,
+        "total_allocations": 1300,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 20160.0,
+        "thread_id": 14,
+        "total_allocations": 1260,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 19520.0,
+        "thread_id": 12,
+        "total_allocations": 1220,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 18880.0,
+        "thread_id": 10,
+        "total_allocations": 1180,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 18240.0,
+        "thread_id": 7,
+        "total_allocations": 1140,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 17600.0,
+        "thread_id": 5,
+        "total_allocations": 1100,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 16960.0,
+        "thread_id": 4,
+        "total_allocations": 1060,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 16320.0,
+        "thread_id": 2,
+        "total_allocations": 1020,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1480.0,
+        "thread_id": 25,
+        "total_allocations": 1480,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1440.0,
+        "thread_id": 23,
+        "total_allocations": 1440,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1400.0,
+        "thread_id": 21,
+        "total_allocations": 1400,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1360.0,
+        "thread_id": 19,
+        "total_allocations": 1360,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1320.0,
+        "thread_id": 17,
+        "total_allocations": 1320,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1280.0,
+        "thread_id": 15,
+        "total_allocations": 1280,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1240.0,
+        "thread_id": 13,
+        "total_allocations": 1240,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1200.0,
+        "thread_id": 11,
+        "total_allocations": 1200,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1160.0,
+        "thread_id": 9,
+        "total_allocations": 1160,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1120.0,
+        "thread_id": 8,
+        "total_allocations": 1120,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1080.0,
+        "thread_id": 6,
+        "total_allocations": 1080,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1040.0,
+        "thread_id": 3,
+        "total_allocations": 1040,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 1000.0,
+        "thread_id": 1,
+        "total_allocations": 1000,
+        "total_deallocations": 0
+      }
+    ],
+    "summary": {
+      "peak_memory_mb": 248.2421875,
+      "total_allocations": 31000,
+      "total_threads": 25
+    },
+    "top_consumers": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 23360.0,
+        "thread_id": 24,
+        "total_allocations": 1460,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 22720.0,
+        "thread_id": 22,
+        "total_allocations": 1420,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 22080.0,
+        "thread_id": 20,
+        "total_allocations": 1380,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 21440.0,
+        "thread_id": 18,
+        "total_allocations": 1340,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 20800.0,
+        "thread_id": 16,
+        "total_allocations": 1300,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 20160.0,
+        "thread_id": 14,
+        "total_allocations": 1260,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 19520.0,
+        "thread_id": 12,
+        "total_allocations": 1220,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 18880.0,
+        "thread_id": 10,
+        "total_allocations": 1180,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 18240.0,
+        "thread_id": 7,
+        "total_allocations": 1140,
+        "total_deallocations": 0
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_rating": "poor",
+        "peak_memory_usage_kb": 17600.0,
+        "thread_id": 5,
+        "total_allocations": 1100,
+        "total_deallocations": 0
+      }
+    ]
+  },
+  "performance_insights": {
+    "efficiency_scores": {
+      "cpu": 40.0,
+      "io": 40.0,
+      "memory": 50.0
+    },
+    "primary_bottleneck": "Balanced",
+    "recommendations_count": 2,
+    "top_recommendations": [
+      "System performance appears well-balanced",
+      "Monitor for performance regression in future updates"
+    ]
+  },
+  "summary": {
+    "overall_efficiency": 43.33333206176758,
+    "primary_bottleneck": "Balanced",
+    "total_samples": 31,
+    "total_threads": 25
+  },
+  "thread_rankings": {
+    "performance_ranking": [
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 25,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 22,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 9,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 18,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 20,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 6,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 14,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 5,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 16,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 11,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 13,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 7,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 10,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 19,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 24,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 4,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 8,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 12,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 17,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 23,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 21,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 3,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 15,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 25.0,
+        "resource_usage_score": 50.0,
+        "thread_id": 2,
+        "thread_name": null
+      },
+      {
+        "allocation_efficiency": 0.0,
+        "efficiency_score": 20.0,
+        "resource_usage_score": 40.0,
+        "thread_id": 1,
+        "thread_name": "resource_collector"
+      }
+    ],
+    "summary": {
+      "total_ranked_threads": 25
+    }
+  },
+  "timestamp": "2025-10-12T02:11:52.293053+00:00"
+}
